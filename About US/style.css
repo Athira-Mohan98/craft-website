@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff6f6;
+    color: #3e3e3e;
+  }
+  
+  .about-header {
+    background-color: rgba(101, 69, 69, 0.938);
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: "Tangerine", cursive;
+      font-weight: 700;
+      font-style: normal;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 80px;
+    background-color: #fffdfd;
+    gap: 40px;
+    
+  }
+  
+  .about-text {
+    flex: 1 1 500px;
+  }
+  
+  .about-text h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #5b3838;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  
+  .about-text ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .about-text li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+  
+  .about-image {
+    flex: 1 1 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .about-cta {
+    text-align: center;
+    background-color: #f7e4e4;
+    padding: 40px 20px;
+  }
+  
+  .about-cta h3 {
+    font-size: 1.8rem;
+    color: #5e3b3b;
+  }
+  
+  .about-cta p {
+    font-size: 1rem;
+    margin: 15px 0 25px;
+  }
+  
+  .cta-button {
+    background-color: transparent;
+    border: 2px solid #5e3b3b;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #5e3b3b;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #5e3b3b;
+    color: #fff;
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: rgba(101, 69, 69, 0.938);
+    color: #f3ebeb;
+    padding: 20px;
+    font-size: 0.9rem;
+  }
+  .about-box {
+    background-color: #f8f1f1;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    margin-bottom: 40px;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #3d2f2f;
+    transition: transform 0.3s ease;
+  }
+  
+  .about-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .about-box h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #5b3838;
+    font-size: 1.5rem;
+  }
+  
+  .about-box p {
+    margin-bottom: 25px;
+    text-align: justify;
+  }
+  
