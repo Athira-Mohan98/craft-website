@@ -294,13 +294,20 @@
     text-size-adjust: 30px;
 text-decoration: solid;}
 
-.image{
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.image {
   border-radius: 20px;
   transition: transform 0.3s ease;
-  gap: 20px;
   padding-right: 10px;
   margin-left: 10px;
 }
-.image.hover{
+
+.image:hover {
   transform: scale(1.05);
 }
